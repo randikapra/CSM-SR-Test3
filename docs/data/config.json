@@ -1,0 +1,14 @@
+{
+    "site": {
+        "title": "CSM-SR",
+        "description": "Advanced Structure-Informed Super-Resolution for Scientific Imaging",
+        "url": "https://randika-CJ.github.io/CSM-test2"
+    },
+    "analytics": {
+        "google_analytics": "G-XXXXXXXXXX"
+    },
+    "social": {
+        "github": "https://github.com/randika-CJ/CSM-test2",
+        "linkedin": "https://linkedin.com/in/randikapra"
+    }
+}

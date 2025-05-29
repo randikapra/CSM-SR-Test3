@@ -1,0 +1,363 @@
+/* ==========================================================================
+   RESPONSIVE.CSS - Mobile-First Responsive Design
+   ========================================================================== */
+
+/* Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+    /* Hero Section Mobile */
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .hero-section {
+        min-height: 90vh;
+        padding: 2rem 0;
+    }
+    
+    /* Section Titles Mobile */
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .section {
+        padding: 60px 0;
+    }
+    
+    /* Metrics Mobile */
+    .metric-value {
+        font-size: 2rem;
+    }
+    
+    .metric-label {
+        font-size: 1rem;
+    }
+    
+    .metrics-container {
+        padding: 2rem 1rem;
+        margin: 2rem 0;
+    }
+    
+    /* Cards Mobile */
+    .glass-card,
+    .highlight-card {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .highlight-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* Navigation Mobile */
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    /* Grid Layouts Mobile */
+    .download-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+    
+    /* Demo Section Mobile */
+    .demo-section {
+        padding: 2rem 1rem;
+        margin: 2rem 0;
+    }
+    
+    .demo-embed {
+        min-height: 400px;
+        padding: 1.5rem;
+    }
+    
+    /* Contact Section Mobile */
+    .contact-section {
+        padding: 2rem 1rem;
+        margin: 2rem 0;
+    }
+    
+    .contact-info {
+        padding: 1.5rem;
+    }
+    
+    /* Team Mobile */
+    .team-member {
+        padding: 1rem;
+    }
+    
+    .member-photo {
+        width: 120px;
+        height: 120px;
+        font-size: 2.5rem;
+    }
+    
+    /* Publication Cards Mobile */
+    .publication-card {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+    
+    /* Button Mobile */
+    .btn-gradient,
+    .btn-outline-gradient {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+    
+    /* Floating Elements Mobile - Reduce for Performance */
+    .floating-element {
+        display: none;
+    }
+    
+    /* Charts Mobile */
+    .comparison-chart {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+    
+    .chart-bar {
+        height: 25px;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Tablet Devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Hero Section Tablet */
+    .hero-title {
+        font-size: 3.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+    
+    /* Section Titles Tablet */
+    .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .section {
+        padding: 80px 0;
+    }
+    
+    /* Metrics Tablet */
+    .metric-value {
+        font-size: 2.5rem;
+    }
+    
+    .metrics-container {
+        padding: 2.5rem;
+    }
+    
+    /* Grid Layouts Tablet */
+    .download-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    /* Cards Tablet */
+    .glass-card,
+    .highlight-card {
+        padding: 1.8rem;
+    }
+    
+    .highlight-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 1.8rem;
+    }
+    
+    /* Demo Section Tablet */
+    .demo-section {
+        padding: 3rem 1.5rem;
+    }
+    
+    .demo-embed {
+        min-height: 500px;
+    }
+    
+    /* Contact Section Tablet */
+    .contact-section {
+        padding: 3rem 1.5rem;
+    }
+    
+    /* Team Tablet */
+    .member-photo {
+        width: 130px;
+        height: 130px;
+        font-size: 2.8rem;
+    }
+    
+    /* Floating Elements Tablet - Reduce Count */
+    .floating-element:nth-child(n+3) {
+        display: none;
+    }
+}
+
+/* Large Desktop (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    /* Container Adjustments */
+    .container-fluid {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    /* Hero Section Large */
+    .hero-title {
+        font-size: 3.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.4rem;
+    }
+    
+    /* Section Adjustments */
+    .section {
+        padding: 90px 0;
+    }
+    
+    .section-title {
+        font-size: 2.8rem;
+    }
+    
+    /* Grid Layouts Large */
+    .download-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Extra Large Desktop (1441px and up) */
+@media (min-width: 1441px) {
+    /* Container Max Width */
+    .container-fluid {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    /* Hero Section XL */
+    .hero-title {
+        font-size: 4.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.6rem;
+    }
+    
+    /* Section Adjustments XL */
+    .section-title {
+        font-size: 3.2rem;
+    }
+    
+    /* Metrics XL */
+    .metric-value {
+        font-size: 3.5rem;
+    }
+    
+    .metrics-container {
+        padding: 4rem;
+    }
+    
+    /* Cards XL */
+    .glass-card,
+    .highlight-card {
+        padding: 2.5rem;
+    }
+    
+    .highlight-icon {
+        width: 90px;
+        height: 90px;
+        font-size: 2.2rem;
+    }
+}
+
+/* High DPI / Retina Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Optimize for high-resolution displays */
+    .hero-title,
+    .section-title {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    /* Sharper borders on cards */
+    .glass-card,
+    .highlight-card,
+    .publication-card {
+        border: 0.5px solid rgba(255, 255, 255, 0.18);
+    }
+}
+
+/* Print Styles */
+@media print {
+    /* Hide unnecessary elements */
+    .floating-elements,
+    .btn-gradient,
+    .btn-outline-gradient,
+    .progress-bar-custom {
+        display: none !important;
+    }
+    
+    /* Optimize for print */
+    body {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .section {
+        page-break-inside: avoid;
+        padding: 2rem 0;
+    }
+    
+    .hero-section {
+        min-height: auto;
+        background: white !important;
+    }
+    
+    .hero-title,
+    .hero-subtitle {
+        color: black !important;
+    }
+}
+
+/* Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+    /* Disable animations for users who prefer reduced motion */
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .floating-element {
+        display: none;
+    }
+    
+    .animated-bg {
+        animation: none;
+        background: var(--primary-gradient);
+    }
+}
+
+/* Dark Mode Support (if implemented) */
+@media (prefers-color-scheme: dark) {
+    /* Optional: Add dark mode styles here */
+    /* This section can be expanded based on design requirements */
+}

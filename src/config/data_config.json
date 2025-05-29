@@ -1,0 +1,36 @@
+{
+    "base_directories": {
+      "dataset": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project",
+      "output": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/Final-Model/SINSR/data"
+    },
+    "directories": {
+      "train_HR": "/data/DIV2KDIV2K_train_HR",
+      "train_LR": "/data/DIV2KDIV2K_train_LR_bicubic/X4",
+      "valid_HR": "/data/DIV2KDIV2K_valid_HR",
+      "valid_LR": "/data/DIV2KDIV2K_valid_LR_bicubic/X4",
+      "test_LR": "/data/DIV2KDIV2K_test_LR_bicubic/X4"
+    },
+    "lmdb_paths": {
+      "train_HR": "SISR-Project/Final-Model/SINSR/data/lmdb/train_HR.lmdb",
+      "train_LR": "SISR-Project/Final-Model/SINSR/data/lmdb/train_LR.lmdb",
+      "valid_HR": "SISR-Project/Final-Model/SINSR/data/lmdb/valid_HR.lmdb",
+      "valid_LR": "SISR-Project/Final-Model/SINSR/data/lmdb/valid_LR.lmdb",
+      "test_LR": "SISR-Project/Final-Model/SINSR/data/lmdb/test_LR.lmdb"
+    },
+    "target_sizes": {
+      "HR": [1024, 768],
+      "LR": [256, 192]
+    },
+    "target_shapes": {
+      "HR": [3, 768, 1024],
+      "LR": [3, 192, 256]
+    },
+    "save_paths": {
+      "train_HR": "SISR-Project/Final-Model/SINSR/data/results/train_hr_sample.jpg",
+      "train_LR": "SISR-Project/Final-Model/SINSR/data/results/train_lr_sample.jpg",
+      "valid_HR": "SISR-Project/Final-Model/SINSR/data/results/valid_hr_sample.jpg",
+      "valid_LR": "SISR-Project/Final-Model/SINSR/data/results/valid_lr_sample.jpg",
+      "test_LR": "SISR-Project/Final-Model/SINSR/data/results/test_lr_sample.jpg"
+    }
+  }
+  

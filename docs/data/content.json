@@ -1,0 +1,16 @@
+{
+    "header": {
+        "site_title": "Structure-SR"
+    },
+    "hero": {
+        "hero_title": "Structure-Informed Super-Resolution Technique for Scientific Imaging",
+        "hero_subtitle": "Revolutionary AI technology for scientific imaging that outperforms state-of-the-art models including VDSR, ESRGAN, SwinIR, and HMA-Net",
+        "performance_title": "Performance Breakthrough",
+        "performance_description": "Achieving superior results in PSNR, SSIM, and LPIPS metrics across multiple datasets"
+    },
+    "research": {
+        "title": "Research Overview",
+        "description": "Our novel approach to super-resolution combines structural information with advanced deep learning techniques.",
+        "methodology": "We developed a hybrid architecture that leverages both spatial and frequency domain information to achieve superior reconstruction quality."
+    }
+}

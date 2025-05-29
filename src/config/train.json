@@ -1,0 +1,33 @@
+{
+    "train_hr_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/data/A1/train_HR",
+    "train_lr_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/data/A1/train_LR",
+    "valid_hr_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/data/A1/valid_HR",
+    "valid_lr_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/data/A1/valid_LR",
+    "target_size_hr": [
+        1024,
+        768
+    ],
+    "target_size_lr": [
+        256,
+        192
+    ],
+    "batch_size": 1,
+    "generator_model_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/Final-Model/SINSR/models/pretrained_generator",
+    "generator_save_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/Final-Model/SINSR/models/generator_5_1",
+    "encoder_save_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/Final-Model/SINSR/models/encoder_5_1",
+    "save_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/Final-Model/SINSR/experiment/train_gen/generated_images_5_1",
+    "log_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/Final-Model/SINSR/experiment/logs_5_1",
+    "model_save_path": "/home/oshadi/SISR-Final_Year_Project/envs/SISR-Project/Final-Model/SINSR/models/generator_5_1",
+    "vgg_input_shape": [
+        768,
+        1024,
+        3
+    ],
+    "learning_rates": {
+        "generator": 0.0001,
+        "discriminator": 0.0001
+    },
+    "epochs": 200,
+    "generator_steps": 10,
+    "save_interval": 10
+}

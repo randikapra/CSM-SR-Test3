@@ -1,0 +1,35 @@
+{
+    "members": [
+        {
+            "name": "Randika Prabaswhara",
+            "role": "Principal Researcher",
+            "bio": "B.Sc.",
+            "photo": "assets/images/team/randika.jpg",
+            "email": "randikap.20@cse.mrt.ac.lk",
+            "linkedin": "https://linkedin.com/in/randika"
+        },
+        {
+            "name": "Oshadi Perera",
+            "role": "Research fellow",
+            "bio": "B.Sc.",
+            "photo": "assets/images/team/oshadi.jpg",
+            "email": "oshadi.20@cse.mrt.ac.lk",
+            "linkedin": "https://linkedin.com/in/oshadi"
+        },
+        {
+            "name": "Gayani Vishara",
+            "role": "Research fellow",
+            "bio": "B.Sc.",
+            "photo": "assets/images/team/gayani.jpg",
+            "email": "gayani.20@cse.mrt.ac.lk",
+            "linkedin": "https://linkedin.com/in/gayani"
+        },
+        {
+            "name": "Uthayasanker",
+            "role": "Research Supervisor",
+            "bio": "Phd.",
+            "photo": "assets/images/team/uthaya.jpg",
+            "email": "rtuthaya.20@cse.mrt.ac.lk"
+        }
+    ]
+}
